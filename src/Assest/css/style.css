@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #f3eded;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .contact-details{
+    display:flex;
+    align-items: flex-start;
+    gap: 0 30px;
+    margin-bottom: 15px;
+  }
+  .contact-details:last-child{
+    margin-bottom: 0px;
+  }
+  .user-education{
+    display:flex;
+    gap: 0 30px;
+  }
+  .user-experience{
+    display:flex;
+    gap: 0 30px;
+    margin-bottom: 15px;
+  }
+  .main-page{
+    padding: 35px 0px;
+  }
+  .user-skills{
+    display: inline-block;
+    margin-right: 12px;
+    width: auto;
+      border: 1px solid #0d6efd;
+      padding: 6px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+      print-color-adjust: exact; 
+  }
+  .user-skills:hover{
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  .user-experience-year{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px 0;
+  }
+  .user-experience-year .first-year::before{
+    content: "";
+    border: 1px solid #0d6efd;
+    width: 2px;
+    height: 16px;
+    position: absolute;
+    top: 21px;
+    left: 18px;
+  }
+  .user-selected-icon{
+    width: auto;
+    height: 28px;
+    max-width: 28px;
+    background-color: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+    min-width: 28px;
+    print-color-adjust: exact; 
+  }
+  .custom-border{
+  position: relative;
+  }
+  .custom-border::before{
+    content: "";
+    width: 2px;
+    border: 1px dashed #0d6efd;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    print-color-adjust: exact; 
+  }
+  .user-profile-contact img{
+    margin-bottom: 20px;
+
+  }
